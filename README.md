@@ -1,7 +1,7 @@
 
 # Retroma Obsidian Theme
 
-![retroma-banner.png](assets/screenshots/retroma-banner.png)
+![retroma-banner.png](assets/screenshots/retroma-banner-high.png)
 
 Your notes? Chaos. Your vault? A digital junkyard. But fear not, **Retroma** is here to trick everyone (including you) into thinking your workspace has its life together.
 
@@ -108,3 +108,4 @@ Donations are greatly appreciated and will be used to fund my sanity, and my cat
 - https://ko-fi.com/emarpiee
 - https://paypal.me/emarpiee
   
+
