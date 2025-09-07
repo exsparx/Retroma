@@ -1,5 +1,5 @@
 
-# Retroma Obsidian Theme
+# Retroma Theme
 
 ![retroma-banner.png](assets/screenshots/retroma-banner-high.png)
 
