@@ -17,7 +17,9 @@ The magic starts with Retroma's advanced color management system so advanced, it
 
 ![retroma-style-settings.webp](assets/screenshots/retroma-style-settings.webp)
 
-Think you’ve got an eye for design? Prove it. Thanks to full integration with the **Style Settings** plugin, Retroma gives you near-total control. Rotate your color scheme, fine-tune folder icon saturation to match your mood, or adjust typography until it feels “just right.” No judgment here, this is your chance to show the world your inner perfectionist.
+Think you’ve got an eye for design? Prove it. Thanks to full integration with the [Style Settings](https://github.com/mgmeyers/obsidian-style-settings) plugin, Retroma gives you near-total control. Rotate your color scheme, fine-tune folder icon saturation to match your mood, or adjust typography until it feels “just right.” No judgment here, this is your chance to show the world your inner perfectionist.
+
+> Install the [Style Settings](https://github.com/mgmeyers/obsidian-style-settings) plugin from the community plugins to access all of Retroma's extensive customization, theme variations, and extra features.
 
 ### 🎭️ Theme Variations
 
@@ -28,7 +30,7 @@ I've also included three distinct variants to match your vibe:
 - **Simple:** A balanced variant that offers a clean, modern look while retaining the theme's core retro elements.
 - **Minimalist:** A stripped-down version that emphasizes simplicity and clarity, focusing on essential design elements.
 
-## ⭐️ Extra Features
+### ⭐️ Extra Features
 
 - Adjustable border radius, because yes, corners are a personality trait
 - Image settings (still wip...)
