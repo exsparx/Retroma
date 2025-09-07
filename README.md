@@ -9,9 +9,9 @@ Your notes? Chaos. Your vault? A digital junkyard. But fear not, **Retroma** is 
 
 Retroma gives you the best of both worlds, taking inspiration from classic and nostalgic designs of software and websites to create a theme that still feels professional and refined. It's a tribute to the past, reminding us of a time when buttons looked like you could actually press them and when UI actually had personality, Retroma brings that back without sacrificing usability or making your screen look like a MySpace profile circa 2006....unless you’re really determined to make it ugly.
 
-### 🎨 Intelligent Color Scheme Management
+### 🎨 Intelligent Color Scheme Algorithm
 
-The magic starts with Retroma's advanced color management system so advanced, it probably has a Ph.D. in aesthetics. You pick one accent color, and Retroma's algorithm does the rest, creating a complete and harmonious palette. It’s like hiring a personal color consultant who works for free, doesn’t sleep, and never judges your questionable font choices.
+The magic starts with Retroma's advanced color algorithm so advanced, it probably has a Ph.D. in aesthetics. You pick one accent color, and Retroma's algorithm does the rest, creating a complete and harmonious palette. It’s like hiring a personal color consultant who works for free, doesn’t sleep, and never judges your questionable font choices.
 
 ### ⚙️ Extensive Customization
 
