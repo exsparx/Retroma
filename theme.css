@@ -1,7 +1,7 @@
 /*
 
       Theme: Retroma
-    Version: v1.0.1
+    Version: v1.0.2
      Author: emarpiee
 Description: A tribute to the past with an eye toward the future.
 
@@ -1136,10 +1136,13 @@ code:not(pre code) {
 
 /* --- Callouts --- */
 
-.callout {
+/* TODO */
+
   /* The relationship between the chroma variable and the grayscale value is an inverse linear one, meaning that as the chroma value increases, the grayscale value decreases. */
-  filter: grayscale(calc(1 - (var(--chroma) / 0.2)));
-}
+/* .callout { */
+  /* filter: grayscale(calc(1 - (var(--chroma) / 0.2))); */
+/* } */
+
 
 /*--- Headings  ---*/
 .heading-divider {
