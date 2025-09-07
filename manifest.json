@@ -1,7 +1,7 @@
 {
 	"name": "Retroma",
 	"version": "1.0.0",
-	"minAppVersion": "1.0.0",
-	"author": "@emarpiee",
+	"minAppVersion": "1.9.0",
+	"author": "emarpiee",
 	"authorUrl": "https://github.com/emarpiee"
 }
