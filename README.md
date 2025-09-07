@@ -79,7 +79,7 @@ We welcome contributions of all kinds! If you're interested in helping out, plea
 
 ## 📍 Note from the Developer
 
-Retroma is still a work in progress, a passion project born from my love of retro design and my hatred of endless customization menus. Big thanks to @codeisconfusing for the inspiration (and button code) from their Retro Windows Obsidian Theme.
+Retroma is still a work in progress, a passion project born from my love of retro design and my hatred of endless customization menus. Big thanks to [@codeisconfusing](https://github.com/codeisconfusing) for the inspiration (and button code) from their [Retro Windows Obsidian Theme](https://github.com/codeisconfusing/retro-windows-obsidian).
 
 ## ☕️ Buy Me A Coffee
 
