@@ -54,6 +54,23 @@ I've also included three distinct variants to match your vibe:
 - [Dataview](https://github.com/blacksmithgu/obsidian-dataview?utm_source=chatgpt.com) 🟠
 - ...
 
+---
+
+## ⬇️ Installations
+
+### Obsidian Community Theme
+
+> Review in progress...
+
+### Manual
+
+1. **Download the Theme:** First, download the [source code](https://github.com/emarpiee/Retroma/releases) for the theme.
+2. **Extract the Files:** Unzip the downloaded folder to access its contents.
+3. **Find Your Themes Folder:** Navigate to your Obsidian vault. Inside, look for the **`.obsidian/themes/`** directory.
+4. **Create a New Theme Folder:** Inside the `themes` directory, create a new folder and name it **`Retroma`**.
+5. **Move the Theme Files:** Copy the **`theme.css`** and **`manifest.json`** files from the unzipped download and place them into the new `Retroma` folder you just created.
+6. **Restart and Apply:** Close and reopen Obsidian. Go to **Settings** > **Appearance** and select **Retroma** from the theme list to activate it.
+
 ## 🌱 Contribute to the Project
 
 We welcome contributions of all kinds! If you're interested in helping out, please follow these guidelines.
