@@ -722,7 +722,7 @@ body:not(.is-mobile) .view-header {
   cursor: pointer !important;
 }
 
-button,
+button:not(.excalidraw button),
 .text-icon-button,
 .clickable-icon,
 .metadata-add-button,
@@ -734,7 +734,7 @@ button,
   border-radius: var(--button-border-radius) !important;
 }
 
-button,
+button:not(.excalidraw button),
 .text-icon-button,
 .clickable-icon,
 .metadata-add-button,
@@ -1138,11 +1138,10 @@ code:not(pre code) {
 
 /* TODO */
 
-  /* The relationship between the chroma variable and the grayscale value is an inverse linear one, meaning that as the chroma value increases, the grayscale value decreases. */
+/* The relationship between the chroma variable and the grayscale value is an inverse linear one, meaning that as the chroma value increases, the grayscale value decreases. */
 /* .callout { */
-  /* filter: grayscale(calc(1 - (var(--chroma) / 0.2))); */
+/* filter: grayscale(calc(1 - (var(--chroma) / 0.2))); */
 /* } */
-
 
 /*--- Headings  ---*/
 .heading-divider {
@@ -1634,6 +1633,29 @@ tr:last-child td:last-child {
 
 .kanban-plugin__table-wrapper table th {
   background-color: oklch(from var(--text-normal) l c h / 0%) !important;
+}
+
+/* Excalidraw */
+.excalidraw {
+  border-radius: var(--window-border-radius);
+  border: var(--border-ridge);
+}
+
+.excalidraw .color-picker-input {
+  background-color: transparent !important;
+}
+
+.excalidraw .Island {
+  border: 2px solid oklch(from gray l c h / 50%);
+}
+
+.excalidraw button:hover,
+.excalidraw .dropdown-menu .dropdown-menu-item:hover {
+  background-color: unset !important;
+}
+
+.excalidraw .color-picker-content input[type="color"] {
+  border-radius: 12px;
 }
 
 /*=============================================
