@@ -62,7 +62,11 @@ I've also included three distinct variants to match your vibe:
 
 ### Obsidian Community Theme
 
-> Review in progress...
+1. **Open Settings:** In Obsidian, click the gear icon in the bottom-left corner to open your settings.
+2. **Go to Appearance:** From the left-hand sidebar, click on "Appearance."
+3. **Manage Community Themes:** Look for the "Themes" section and click the "Manage" button. This will open up the community themes browser.
+4. **Find Retroma:** In the search bar at the top, type "Retroma." The theme should appear in the list below.
+5. **Install and Use:** Click on "Retroma" and then click the "Install and use" button. Obsidian will automatically download the theme and apply it to your vault.
 
 ### Manual
 
@@ -87,15 +91,6 @@ We welcome contributions of all kinds! If you're interested in helping out, plea
 1. Check the [issues](https://github.com/emarpiee/Retroma/issues) to see if the feature has already been requested.
 2. If not, open a new issue and describe the feature you'd like to see.
 
-### 📈 Ready to Contribute Code?
-
-1. Fork the repository.
-2. Create a new branch for your feature or bug fix: `git checkout -b feature/your-feature-name` or `git checkout -b fix/your-bug-fix`.
-3. Make your changes and test them thoroughly.
-4. Commit your changes with a clear and descriptive commit message.
-5. Push your branch to your forked repository.
-6. Open a [pull request](https://github.com/emarpiee/Retroma/pulls) to the `main` branch of the original repository.
-
 ## 📍 Note from the Developer
 
 Retroma is still a work in progress, a passion project born from my love of retro design and my hatred of endless customization menus. Big thanks to [@codeisconfusing](https://github.com/codeisconfusing) for the inspiration (and button code) from their [Retro Windows Obsidian Theme](https://github.com/codeisconfusing/retro-windows-obsidian).
@@ -108,4 +103,3 @@ Donations are greatly appreciated and will be used to fund my sanity, and my cat
 - https://ko-fi.com/emarpiee
 - https://paypal.me/emarpiee
   
-
