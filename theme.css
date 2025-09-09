@@ -759,6 +759,7 @@ button:hover,
 }
 
 button:active,
+button:not(.clickable-icon):active,
 .text-icon-button:active,
 .clickable-icon.is-active,
 .clickable-icon:active,
