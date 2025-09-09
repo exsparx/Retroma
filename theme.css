@@ -521,6 +521,7 @@ body {
   border: var(--border-ridge);
   background-color: var(--background-paper);
   box-shadow: inset 0 0 4px oklch(from black l c h / 50%);
+  z-index: 0;
 }
 
 /* .workspace-leaf-resize-handle { */
@@ -1669,6 +1670,17 @@ tr:last-child td:last-child {
 
 .excalidraw .color-picker-content input[type="color"] {
   border-radius: 12px;
+}
+
+/* Pixel Banner */
+
+.pixel-banner-section, .pixel-banner-settings .tab-callout {
+  --text-accent-hover: var(--text-normal);
+  box-shadow: var(--box-shadow-active);
+}
+
+.target-position-modal .max-width-container, .target-position-modal .height-container, .target-position-modal .content-start-position-container {
+  background-color: var(--background-paper) !important;
 }
 
 /*=============================================
