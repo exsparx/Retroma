@@ -728,7 +728,7 @@ button:not(.excalidraw button),
 .setting-item-control .clickable-icon,
 .setting-item-control button,
 .workspace-tab-header-inner .workspace-tab-header-inner-icon {
-  /* color: var(--text-normal) !important; */
+  color: var(--text-muted) !important;
   border-radius: var(--button-border-radius) !important;
 }
 
@@ -1720,6 +1720,7 @@ tr:last-child td:last-child {
 
 .is-mobile .view-header {
   height: unset !important;
+  border: var(--border-groove) !important;
 }
 
 .is-mobile .nav-header {
@@ -1729,6 +1730,14 @@ tr:last-child td:last-child {
 
 .is-mobile .view-header .view-action {
   padding: 4px 6px;
+}
+
+.is-mobile .mod-activated {
+  background-color: var(--background-secondary-alt);
+}
+
+.is-phone .mod-settings.mod-sidebar-layout {
+  padding: 0 6px ;
 }
 
 /* @settings
