@@ -79,7 +79,7 @@ I've also included three distinct variants to match your vibe:
 
 ## 🌱 Contribute to the Project
 
-We welcome contributions of all kinds! If you're interested in helping out, please follow these guidelines.
+I welcome contributions of all kinds! If you're interested in helping out, please follow these guidelines.
 
 ### 🐞 Found a Bug?
 
