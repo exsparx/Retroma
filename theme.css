@@ -773,13 +773,6 @@ button:not(.clickable-icon):active,
   font-weight: var(--font-bold) !important;
 }
 
-.setting-item-control .clickable-icon,
-.setting-item-control button {
-  background-color: oklch(
-    from var(--background-tertiary) l c h / 30%
-  ) !important;
-}
-
 .workspace-tab-header-tab-list {
   padding: unset;
 }
