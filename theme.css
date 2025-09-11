@@ -111,10 +111,6 @@ body {
     from var(--hue-cyan) var(--lightness) var(--chroma) h
   ) !important;
 
-  /* Typography */
-  --text-faint: oklch(from var(--text-normal) l c h / 40%);
-  --text-muted: oklch(from var(--text-normal) l c h / 70%);
-
   /* Heading Colors */
   --h1-color: var(--color-red);
   --h2-color: var(--color-orange);
