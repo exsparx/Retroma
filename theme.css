@@ -1431,6 +1431,10 @@ tr:last-child td:last-child {
   padding: unset;
 }
 
+.vertical-tab-header-group-title {
+  color: oklch(from var(--text-normal) l c h / 50%);
+}
+
 .theme-dark .checkbox-container.is-enabled {
   background: oklch(from var(--base-accent) 80% c h / 50%);
 }
