@@ -1105,7 +1105,7 @@ code {
 
 .cm-s-obsidian .cm-inline-code:not(.cm-formatting),
 code:not(pre code),
-pre {
+pre, .suggestion-hotkey {
   box-shadow: 0 0 0 1px oklch(from var(--text-normal) l c h / 25%);
 }
 
@@ -1305,7 +1305,7 @@ tr:last-child td:last-child {
 }
 
 .prompt-input-container input:not(input[type="checkbox"], input[type="range"]) {
-  background-color: var(--background-secondary) !important;
+  background-color: var(--background-paper) !important;
 }
 
 /*=============================================
