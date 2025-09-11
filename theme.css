@@ -720,6 +720,7 @@ body:not(.is-mobile) .view-header {
 }
 
 button:not(.excalidraw button),
+.vertical-tab-nav-item:not(.settings-search-input),
 .text-icon-button,
 .clickable-icon,
 .metadata-add-button,
@@ -727,11 +728,12 @@ button:not(.excalidraw button),
 .setting-item-control .clickable-icon,
 .setting-item-control button,
 .workspace-tab-header-inner .workspace-tab-header-inner-icon {
-  color: var(--text-normal) !important;
+  /* color: var(--text-normal) !important; */
   border-radius: var(--button-border-radius) !important;
 }
 
 button:not(.excalidraw button),
+.vertical-tab-nav-item:not(.settings-search-input),
 .text-icon-button,
 .clickable-icon,
 .metadata-add-button,
@@ -767,7 +769,7 @@ button:not(.clickable-icon):active,
     .workspace.is-left-sidedock-open .sidebar-toggle-button.mod-left
   )
   .clickable-icon,
-.vertical-tab-nav-item.is-active {
+.vertical-tab-nav-item.is-active, .vertical-tab-nav-item:not(.settings-search-input):active {
   background-color: var(--button-active) !important;
   box-shadow: var(--box-shadow-active) !important;
   font-weight: var(--font-bold) !important;
@@ -779,6 +781,10 @@ button:not(.clickable-icon):active,
 
 .mod-top-right-space .sidebar-toggle-button {
   padding-left: var(--size-4-1);
+}
+
+button.mod-cta, button.mod-warning {
+  --text-color: unset;
 }
 
 /* --- Button Group Spacing --- */
@@ -1427,8 +1433,16 @@ tr:last-child td:last-child {
   border-top: 1px solid var(--interactive-active);
 }
 
+.vertical-tab-content .setting-item  button, .vertical-tab-content .setting-item .clickable-icon{
+  background-color: var(--background-paper) !important;
+}
+
 .modal-close-button {
   padding: unset;
+}
+
+.vertical-tab-nav-item:not(.settings-search-input) {
+  margin-bottom: 2px;
 }
 
 .vertical-tab-header-group-title {
