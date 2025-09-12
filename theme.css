@@ -1849,6 +1849,163 @@ settings:
         max: 0.2
         step: 0.001
     -
+        id: typography
+        title:  Typography Tuner (advance)
+        type: heading
+        level: 2
+        collapsed: true
+    -
+        id: heading-colors
+        title:  Heading Colors
+        type: heading
+        level: 3
+        collapsed: true
+    -
+        id: h1-color
+        title: H1
+        type: variable-themed-color
+        format: hex
+        opacity: false
+        default-light: '#'
+        default-dark: '#'
+    -
+        id: h2-color
+        title: H2
+        type: variable-themed-color
+        format: hex
+        opacity: false
+        default-light: '#'
+        default-dark: '#'
+    -
+        id: h3-color
+        title: H3
+        type: variable-themed-color
+        format: hex
+        opacity: false
+        default-light: '#'
+        default-dark: '#'
+    -
+        id: h4-color
+        title: H4
+        type: variable-themed-color
+        format: hex
+        opacity: false
+        default-light: '#'
+        default-dark: '#'
+    -
+        id: h5-color
+        title: H5
+        type: variable-themed-color
+        format: hex
+        opacity: false
+        default-light: '#'
+        default-dark: '#'
+    -
+        id: h6-color
+        title: H6
+        type: variable-themed-color
+        format: hex
+        opacity: false
+        default-light: '#'
+        default-dark: '#'
+    -
+        id: main-text-colors
+        title:  Main Text Colors
+        type: heading
+        level: 3
+        collapsed: true
+    -
+        id: text-normal
+        title: Main Text
+        type: variable-themed-color
+        format: hex
+        opacity: false
+        default-light: '#'
+        default-dark: '#'
+    -
+        id: text-muted
+        title: Muted Text
+        type: variable-themed-color
+        format: hex
+        opacity: false
+        default-light: '#'
+        default-dark: '#'
+    -
+        id: text-faint
+        title: Faint Text
+        type: variable-themed-color
+        format: hex
+        opacity: false
+        default-light: '#'
+        default-dark: '#'
+    -
+        id: text-emphasis-colors
+        title:  Text Emphasis Colors
+        type: heading
+        level: 3
+        collapsed: true
+    -
+        id: bold-color
+        title: Bold Text
+        type: variable-themed-color
+        format: hex
+        opacity: false
+        default-light: '#'
+        default-dark: '#'
+    -
+        id: italic-color
+        title: Italic Text
+        type: variable-themed-color
+        format: hex
+        opacity: false
+        default-light: '#'
+        default-dark: '#'
+    -
+        id: link-colors
+        title:  Link  Colors
+        type: heading
+        level: 3
+        collapsed: true
+    -
+        id: link-color
+        title: Internal Link
+        type: variable-themed-color
+        format: hex
+        opacity: false
+        default-light: '#'
+        default-dark: '#'
+    -
+        id: link-external-color
+        title: External Link
+        type: variable-themed-color
+        format: hex
+        opacity: false
+        default-light: '#'
+        default-dark: '#'
+    -
+        id: text-highlighter-colors
+        title:  Text Highlighter Colors
+        type: heading
+        level: 3
+        collapsed: true
+    -
+        id: text-highlight-bg
+        title: Highlighter Color
+        description: ""
+        format: hex
+        type: variable-themed-color
+        opacity: true
+        default-light: '#FFFFFF00'
+        default-dark: '#FFFFFF00'
+    -
+        id: text-selection
+        title: Text Selection Colors
+        type: variable-themed-color
+        format: hex
+        opacity: false
+        default-light: '#'
+        default-dark: '#'
+    -
         id: image-tuner
         title:  Image Settings
         type: heading
@@ -1944,15 +2101,6 @@ settings:
             -
               label: Right
               value: text-right
-    -
-        id: text-highlight-bg
-        title: Text Highlighter Color
-        description: ""
-        format: hex
-        type: variable-themed-color
-        opacity: true
-        default-light: '#FFFFFF00'
-        default-dark: '#FFFFFF00'
     -
         id: author
         title: SUPPORT THE DEVELOPMENT
