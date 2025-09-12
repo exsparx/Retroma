@@ -1277,7 +1277,7 @@ tr:last-child td:last-child {
 }
 
 .modal-bg {
-  background-color: oklch(from black l c h / 25%) !important;
+  background-color: oklch(from black l c h / 50%) !important;
 }
 
 .menu .menu-scroll {
