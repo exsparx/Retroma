@@ -1270,7 +1270,7 @@ tr:last-child td:last-child {
 .menu,
 .is-mobile .prompt .is-phome .menu,
 .suggestion-container .mod-search-suggestion {
-  border: 4px ridge var(--background-primary) !important;
+  border: var(--border-ridge);
   border-radius: var(--window-border-radius) !important;
   /* box-shadow: var(--shadow-l) !important; */
   box-shadow: 0 0 12px 2px oklch(from black l c h / 40%);
