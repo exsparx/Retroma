@@ -1,7 +1,7 @@
 /*
 
       Theme: Retroma
-    Version: v1.0.5
+    Version: v1.1.0
      Author: emarpiee
 Description: A tribute to the past with an eye toward the future.
 
@@ -728,7 +728,6 @@ button:not(.excalidraw button),
 .setting-item-control .clickable-icon,
 .setting-item-control button,
 .workspace-tab-header-inner .workspace-tab-header-inner-icon {
-  color: var(--text-muted) !important;
   border-radius: var(--button-border-radius) !important;
 }
 
@@ -769,7 +768,8 @@ button:not(.clickable-icon):active,
     .workspace.is-left-sidedock-open .sidebar-toggle-button.mod-left
   )
   .clickable-icon,
-.vertical-tab-nav-item.is-active, .vertical-tab-nav-item:not(.settings-search-input):active {
+.vertical-tab-nav-item.is-active,
+.vertical-tab-nav-item:not(.settings-search-input):active {
   background-color: var(--button-active) !important;
   box-shadow: var(--box-shadow-active) !important;
   font-weight: var(--font-bold) !important;
@@ -783,7 +783,8 @@ button:not(.clickable-icon):active,
   padding-left: var(--size-4-1);
 }
 
-button.mod-cta, button.mod-warning {
+button.mod-cta,
+button.mod-warning {
   --text-color: unset;
 }
 
@@ -990,7 +991,8 @@ a.tag {
 
 .cm-hashtag.cm-hashtag-begin,
 a.tag,
-a.tag:hover, .metadata-property-value .multi-select-pill  {
+a.tag:hover,
+.metadata-property-value .multi-select-pill {
   border-left: var(--size-4-1) solid var(--tag-color);
 }
 
@@ -1111,7 +1113,8 @@ code {
 
 .cm-s-obsidian .cm-inline-code:not(.cm-formatting),
 code:not(pre code),
-pre, .suggestion-hotkey {
+pre,
+.suggestion-hotkey {
   box-shadow: 0 0 0 1px oklch(from var(--text-normal) l c h / 25%);
 }
 
@@ -1433,7 +1436,8 @@ tr:last-child td:last-child {
   border-top: 1px solid var(--interactive-active);
 }
 
-.vertical-tab-content .setting-item  button, .vertical-tab-content .setting-item .clickable-icon{
+.vertical-tab-content .setting-item button,
+.vertical-tab-content .setting-item .clickable-icon {
   background-color: var(--background-paper) !important;
 }
 
@@ -1445,7 +1449,8 @@ tr:last-child td:last-child {
   margin-bottom: 2px;
 }
 
-.vertical-tab-header-group-title {
+.vertical-tab-header-group-title,
+.is-phone .modal.mod-settings .vertical-tab-header-group-title {
   color: oklch(from var(--text-normal) l c h / 50%);
 }
 
@@ -1676,12 +1681,15 @@ tr:last-child td:last-child {
 
 /* Pixel Banner */
 
-.pixel-banner-section, .pixel-banner-settings .tab-callout {
+.pixel-banner-section,
+.pixel-banner-settings .tab-callout {
   --text-accent-hover: var(--text-normal);
   box-shadow: var(--box-shadow-active);
 }
 
-.target-position-modal .max-width-container, .target-position-modal .height-container, .target-position-modal .content-start-position-container {
+.target-position-modal .max-width-container,
+.target-position-modal .height-container,
+.target-position-modal .content-start-position-container {
   background-color: var(--background-paper) !important;
 }
 
@@ -1736,8 +1744,13 @@ tr:last-child td:last-child {
   background-color: var(--background-secondary-alt);
 }
 
+.is-phone .modal.mod-settings .vertical-tab-header,
 .is-phone .mod-settings.mod-sidebar-layout {
-  padding: 0 6px ;
+  background-color: var(--background-secondary);
+}
+
+.is-phone .mod-settings.mod-sidebar-layout {
+  padding: 0 6px;
 }
 
 /* @settings
@@ -1849,6 +1862,163 @@ settings:
         max: 0.2
         step: 0.001
     -
+        id: typography
+        title:  Typography Tuner (advance)
+        type: heading
+        level: 2
+        collapsed: true
+    -
+        id: heading-colors
+        title:  Heading Colors
+        type: heading
+        level: 3
+        collapsed: true
+    -
+        id: h1-color
+        title: H1
+        type: variable-themed-color
+        format: hex
+        opacity: false
+        default-light: '#'
+        default-dark: '#'
+    -
+        id: h2-color
+        title: H2
+        type: variable-themed-color
+        format: hex
+        opacity: false
+        default-light: '#'
+        default-dark: '#'
+    -
+        id: h3-color
+        title: H3
+        type: variable-themed-color
+        format: hex
+        opacity: false
+        default-light: '#'
+        default-dark: '#'
+    -
+        id: h4-color
+        title: H4
+        type: variable-themed-color
+        format: hex
+        opacity: false
+        default-light: '#'
+        default-dark: '#'
+    -
+        id: h5-color
+        title: H5
+        type: variable-themed-color
+        format: hex
+        opacity: false
+        default-light: '#'
+        default-dark: '#'
+    -
+        id: h6-color
+        title: H6
+        type: variable-themed-color
+        format: hex
+        opacity: false
+        default-light: '#'
+        default-dark: '#'
+    -
+        id: main-text-colors
+        title:  Main Text Colors
+        type: heading
+        level: 3
+        collapsed: true
+    -
+        id: text-normal
+        title: Main Text
+        type: variable-themed-color
+        format: hex
+        opacity: false
+        default-light: '#'
+        default-dark: '#'
+    -
+        id: text-muted
+        title: Muted Text
+        type: variable-themed-color
+        format: hex
+        opacity: false
+        default-light: '#'
+        default-dark: '#'
+    -
+        id: text-faint
+        title: Faint Text
+        type: variable-themed-color
+        format: hex
+        opacity: false
+        default-light: '#'
+        default-dark: '#'
+    -
+        id: text-emphasis-colors
+        title:  Text Emphasis Colors
+        type: heading
+        level: 3
+        collapsed: true
+    -
+        id: bold-color
+        title: Bold Text
+        type: variable-themed-color
+        format: hex
+        opacity: false
+        default-light: '#'
+        default-dark: '#'
+    -
+        id: italic-color
+        title: Italic Text
+        type: variable-themed-color
+        format: hex
+        opacity: false
+        default-light: '#'
+        default-dark: '#'
+    -
+        id: link-colors
+        title:  Link  Colors
+        type: heading
+        level: 3
+        collapsed: true
+    -
+        id: link-color
+        title: Internal Link
+        type: variable-themed-color
+        format: hex
+        opacity: false
+        default-light: '#'
+        default-dark: '#'
+    -
+        id: link-external-color
+        title: External Link
+        type: variable-themed-color
+        format: hex
+        opacity: false
+        default-light: '#'
+        default-dark: '#'
+    -
+        id: text-highlighter-colors
+        title:  Text Highlighter Colors
+        type: heading
+        level: 3
+        collapsed: true
+    -
+        id: text-highlight-bg
+        title: Highlighter Color
+        description: ""
+        format: hex
+        type: variable-themed-color
+        opacity: true
+        default-light: '#FFFFFF00'
+        default-dark: '#FFFFFF00'
+    -
+        id: text-selection
+        title: Text Selection Colors
+        type: variable-themed-color
+        format: hex
+        opacity: false
+        default-light: '#'
+        default-dark: '#'
+    -
         id: image-tuner
         title:  Image Settings
         type: heading
@@ -1944,15 +2114,6 @@ settings:
             -
               label: Right
               value: text-right
-    -
-        id: text-highlight-bg
-        title: Text Highlighter Color
-        description: ""
-        format: hex
-        type: variable-themed-color
-        opacity: true
-        default-light: '#FFFFFF00'
-        default-dark: '#FFFFFF00'
     -
         id: author
         title: SUPPORT THE DEVELOPMENT
