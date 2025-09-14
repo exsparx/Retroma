@@ -769,7 +769,8 @@ button:not(.clickable-icon):active,
     .workspace.is-left-sidedock-open .sidebar-toggle-button.mod-left
   )
   .clickable-icon,
-.vertical-tab-nav-item.is-active, .vertical-tab-nav-item:not(.settings-search-input):active {
+.vertical-tab-nav-item.is-active,
+.vertical-tab-nav-item:not(.settings-search-input):active {
   background-color: var(--button-active) !important;
   box-shadow: var(--box-shadow-active) !important;
   font-weight: var(--font-bold) !important;
@@ -783,7 +784,8 @@ button:not(.clickable-icon):active,
   padding-left: var(--size-4-1);
 }
 
-button.mod-cta, button.mod-warning {
+button.mod-cta,
+button.mod-warning {
   --text-color: unset;
 }
 
@@ -990,7 +992,8 @@ a.tag {
 
 .cm-hashtag.cm-hashtag-begin,
 a.tag,
-a.tag:hover, .metadata-property-value .multi-select-pill  {
+a.tag:hover,
+.metadata-property-value .multi-select-pill {
   border-left: var(--size-4-1) solid var(--tag-color);
 }
 
@@ -1111,7 +1114,8 @@ code {
 
 .cm-s-obsidian .cm-inline-code:not(.cm-formatting),
 code:not(pre code),
-pre, .suggestion-hotkey {
+pre,
+.suggestion-hotkey {
   box-shadow: 0 0 0 1px oklch(from var(--text-normal) l c h / 25%);
 }
 
@@ -1433,7 +1437,8 @@ tr:last-child td:last-child {
   border-top: 1px solid var(--interactive-active);
 }
 
-.vertical-tab-content .setting-item  button, .vertical-tab-content .setting-item .clickable-icon{
+.vertical-tab-content .setting-item button,
+.vertical-tab-content .setting-item .clickable-icon {
   background-color: var(--background-paper) !important;
 }
 
@@ -1676,12 +1681,15 @@ tr:last-child td:last-child {
 
 /* Pixel Banner */
 
-.pixel-banner-section, .pixel-banner-settings .tab-callout {
+.pixel-banner-section,
+.pixel-banner-settings .tab-callout {
   --text-accent-hover: var(--text-normal);
   box-shadow: var(--box-shadow-active);
 }
 
-.target-position-modal .max-width-container, .target-position-modal .height-container, .target-position-modal .content-start-position-container {
+.target-position-modal .max-width-container,
+.target-position-modal .height-container,
+.target-position-modal .content-start-position-container {
   background-color: var(--background-paper) !important;
 }
 
@@ -1737,7 +1745,7 @@ tr:last-child td:last-child {
 }
 
 .is-phone .mod-settings.mod-sidebar-layout {
-  padding: 0 6px ;
+  padding: 0 6px;
 }
 
 /* @settings
