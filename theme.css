@@ -719,15 +719,21 @@ body:not(.is-mobile) .view-header {
   cursor: pointer !important;
 }
 
+.vertical-tab-nav-item:not(.settings-search-input) {
+  border-radius: var(--button-border-radius);
+}
+
 button:not(.excalidraw button),
-.vertical-tab-nav-item:not(.settings-search-input),
+/* .vertical-tab-nav-item:not(.settings-search-input), */
 .text-icon-button,
 .clickable-icon,
 .metadata-add-button,
 .workspace-tab-header,
 .setting-item-control .clickable-icon,
 .setting-item-control button,
-.workspace-tab-header-inner .workspace-tab-header-inner-icon {
+.workspace-tab-header-inner .workspace-tab-header-inner-icon,
+.workspace-drawer-vault-switcher-icon {
+  color: var(--text-muted) !important;
   border-radius: var(--button-border-radius) !important;
 }
 
