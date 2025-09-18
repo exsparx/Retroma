@@ -1056,7 +1056,6 @@ a.tag:hover,
 
 .multi-select-pill {
   --pill-radius: var(--tag-radius);
-  height: 1.5em;
   gap: var(--size-4-1);
   line-height: unset;
 }
