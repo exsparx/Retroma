@@ -1125,11 +1125,15 @@ pre,
 
 .cm-s-obsidian .cm-inline-code:not(.cm-formatting),
 .markdown-rendered code:not(pre code),
-code:not(pre code) {
+code:not(pre code),
+.cm-s-obsidian .cm-templater-command.cm-templater-execution-tag,
+.cm-s-obsidian .templater-command-bg {
   padding-inline: 6px !important;
 }
 
-.cm-s-obsidian div.HyperMD-codeblock-bg {
+.cm-s-obsidian div.HyperMD-codeblock-bg,
+.cm-s-obsidian .cm-templater-command.cm-templater-execution-tag,
+.cm-s-obsidian .templater-command-bg {
   border: 1px solid oklch(from var(--text-normal) l c h / 10%);
 }
 
@@ -1696,6 +1700,13 @@ tr:last-child td:last-child {
 .target-position-modal .height-container,
 .target-position-modal .content-start-position-container {
   background-color: var(--background-paper) !important;
+}
+
+/* Templater */
+.cm-s-obsidian .cm-templater-command.cm-templater-execution-tag,
+.cm-s-obsidian .templater-command-bg,
+.cm-s-obsidian .templater-inline .cm-templater-command {
+  background-color: var(--code-background);
 }
 
 /*=============================================
