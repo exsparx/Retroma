@@ -1704,6 +1704,11 @@ tr:last-child td:last-child {
   margin-block-end: var(--size-4-2);
 }
 
+.kanban-plugin__lane-grip,
+.kanban-plugin__icon {
+  color: var(--text-muted);
+}
+
 /* Excalidraw */
 .excalidraw {
   border-radius: var(--window-border-radius);
