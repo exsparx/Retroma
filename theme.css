@@ -1234,6 +1234,10 @@ img {
   padding: var(--size-4-3);
 }
 
+.footnotes-view .footnote-list-item {
+  border: unset;
+}
+
 /*** Table  ***/
 
 table {
