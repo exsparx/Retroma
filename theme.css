@@ -831,6 +831,14 @@ button.mod-warning {
   --text-color: unset;
 }
 
+/* Button Group Spacing */
+.view-header-nav-buttons,
+.view-actions,
+.nav-buttons-container,
+.workspace-drawer-vault-actions {
+  gap: var(--size-2-3) !important;
+}
+
 /* --- Inputs & Selects --- */
 input:not(input[type="checkbox"], input[type="range"]),
 .setting-item-control select,
