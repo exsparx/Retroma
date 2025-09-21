@@ -629,18 +629,19 @@ body:not(.is-mobile)
 }
 
 /* --- Headers (Panes & Navigation) --- */
+
 .nav-header,
 .view-header {
-  /* margin-bottom: var(--size-4-2); */
   align-content: center;
   background-color: var(--background-secondary);
-  border: var(--border-groove);
+  border: var(--border-groove) !important;
   border-radius: var(--window-border-radius);
 }
 
-body:not(.is-mobile) .view-header {
-  overflow: overlay;
-  scrollbar-width: none;
+/* Scrollable header */
+.view-header {
+  overflow: overlay !important;
+  scrollbar-width: none !important;
 }
 
 .is-focused .workspace-leaf.mod-active .view-header {
@@ -828,15 +829,6 @@ button:not(.clickable-icon):active,
 button.mod-cta,
 button.mod-warning {
   --text-color: unset;
-}
-
-/* --- Button Group Spacing --- */
-.view-header-nav-buttons,
-.view-actions,
-.is-mobile .view-actions,
-.nav-buttons-container,
-.workspace-drawer-vault-actions {
-  gap: var(--size-2-3);
 }
 
 /* --- Inputs & Selects --- */
@@ -1314,7 +1306,7 @@ tr:last-child td:last-child {
 .menu,
 .is-mobile .prompt .is-phome .menu,
 .suggestion-container .mod-search-suggestion {
-  border: var(--border-ridge);
+  border: var(--border-ridge) !important;
   border-radius: var(--window-border-radius) !important;
   /* box-shadow: var(--shadow-l) !important; */
   box-shadow: 0 0 12px 2px oklch(from black l c h / 40%);
@@ -1787,8 +1779,7 @@ tr:last-child td:last-child {
 }
 
 .is-mobile .view-header {
-  height: unset !important;
-  border: var(--border-groove) !important;
+  height: 70px !important;
 }
 
 .is-mobile .nav-header {
@@ -1796,8 +1787,12 @@ tr:last-child td:last-child {
   padding-block: var(--size-4-2);
 }
 
-.is-mobile .view-header .view-action {
-  padding: 4px 6px;
+.is-mobile .view-header-title-container {
+  height: unset;
+}
+
+.is-mobile .view-actions {
+  padding: unset;
 }
 
 .is-mobile .mod-activated {
