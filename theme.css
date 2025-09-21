@@ -756,7 +756,7 @@ body:not(.is-mobile) .view-header {
 }
 
 .vertical-tab-nav-item:not(.settings-search-input) {
-  border-radius: var(--button-border-radius);
+  border-radius: var(--button-border-radius) !important;
 }
 
 button:not(.excalidraw button),
