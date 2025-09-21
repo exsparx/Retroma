@@ -724,7 +724,6 @@ body:not(.is-mobile) .view-header {
 }
 
 button:not(.excalidraw button),
-/* .vertical-tab-nav-item:not(.settings-search-input), */
 .text-icon-button,
 .clickable-icon,
 .metadata-add-button,
