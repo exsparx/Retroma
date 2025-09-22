@@ -1314,6 +1314,7 @@ tr:last-child td:last-child {
 
 .suggestion-container,
 .prompt,
+.popover,
 .modal,
 .menu,
 .is-mobile .prompt .is-phome .menu,
@@ -1347,10 +1348,6 @@ tr:last-child td:last-child {
 
 .prompt-results {
   box-shadow: inset 0px 0 4px 0px black;
-}
-
-.popover {
-  box-shadow: var(--shadow-l);
 }
 
 .popover.hover-popover.is-editing {
