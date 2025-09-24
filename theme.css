@@ -887,8 +887,12 @@ textarea {
   background-color: oklch(
     from var(--background-secondary) l c h / 30%
   ) !important;
-  box-shadow: -2px 2px 0px var(--background-tertiary);
+  box-shadow: -1px 1px 0px var(--background-tertiary);
   border: 2px solid oklch(from var(--accent-2) 55% c h / 50%);
+}
+
+.nav-files-container::-webkit-scrollbar {
+  display: none !important;
 }
 
 .nav-files-container > div > .nav-folder:not(.is-collapsed) {
