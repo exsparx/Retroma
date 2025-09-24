@@ -1161,10 +1161,6 @@ blockquote {
   border-radius: var(--window-border-radius);
 }
 
-.empty-state-action {
-  color: var(--text-faint);
-}
-
 /*** Code  ***/
 
 code {
