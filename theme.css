@@ -168,7 +168,7 @@ body {
 
   /* Layout & Sizing */
   --header-height: 48px;
-  --file-margins: var(--size-4-6);
+  --file-margins: var(--size-4-5) !important;
 
   /* Borders & Dividers */
   --hr-color: oklch(from var(--text-normal) l c h / 25%);
@@ -541,6 +541,11 @@ body {
 }
 
 /* --- Content Areas Inside a Leaf --- */
+
+.view-content > .markdown-source-view.mod-cm6 > .cm-editor > .cm-scroller {
+  padding: var(--file-margins) !important;
+}
+
 .markdown-source-view,
 .markdown-preview-view,
 .view-content.webviewer-content,
@@ -1507,6 +1512,17 @@ tr:last-child td:last-child {
 /* --- Settings Page --- */
 .setting-item {
   border-top: 1px solid var(--interactive-active);
+}
+
+.is-phone .mod-settings.mod-sidebar-layout {
+  padding: 6px !important;
+  border: unset !important;
+}
+
+.is-phone .modal.mod-settings .vertical-tab-content {
+  border-radius: var(--window-border-radius);
+  box-shadow: inset 0 0 4px oklch(from black l c h / 50%);
+  border: var(--border-ridge);
 }
 
 .vertical-tab-content .setting-item button,
