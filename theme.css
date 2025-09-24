@@ -1188,15 +1188,6 @@ code:not(pre code),
   border: 1px solid oklch(from var(--text-normal) l c h / 10%);
 }
 
-/* --- Callouts --- */
-
-/* TODO */
-
-/* The relationship between the chroma variable and the grayscale value is an inverse linear one, meaning that as the chroma value increases, the grayscale value decreases. */
-/* .callout { */
-/* filter: grayscale(calc(1 - (var(--chroma) / 0.2))); */
-/* } */
-
 /*--- Headings  ---*/
 .heading-divider {
   .markdown-preview-view h1,
@@ -1312,20 +1303,6 @@ tr:last-child td:last-child {
     from var(--base-accent) 75% calc(c + 0.1) h
   ) !important;
 }
-
-/* TODO: Mermaid */
-
-/* .node polygon, .node rect, .mermaid .actor, .mermaid .actor-line, .mermaid .edgeLabel p { */
-/* background-color: red !important; */
-/* stroke: red !important; */
-/* fill: red !important; */
-/* } */
-
-/* .mermaid tspan, .mermaid .edgeLabel p, .mermaid .nodeLabel p { */
-/* fill: white !important; */
-/* font-weight: var(--font-bold); */
-/* color: white !important; */
-/* } */
 
 /*=============================================
 =                   CANVAS                    =
