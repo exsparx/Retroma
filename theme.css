@@ -1532,20 +1532,22 @@ tr:last-child td:last-child {
 =============================================*/
 
 /* --- Settings Page --- */
-.setting-item {
-  border-top: 1px solid var(--interactive-active);
-}
 
-.is-phone .mod-settings.mod-sidebar-layout {
-  padding: 6px !important;
+.is-phone .mod-settings.mod-sidebar-layout,
+.is-phone .modal.mod-lg,
+.is-phone .modal.mod-sidebar-layout {
+  padding-inline: 6px;
   padding-bottom: var(--mobile-nav-button-safe-area) !important;
   border: unset !important;
+  background-color: var(--background-secondary);
 }
 
-.is-phone .modal.mod-settings .vertical-tab-content {
+.is-phone .modal.mod-sidebar-layout .modal-content > * {
+  padding: 6px !important;
   border-radius: var(--window-border-radius);
   box-shadow: inset 0 0 4px oklch(from black l c h / 50%);
   border: var(--border-ridge);
+  background-color: var(--background-primary) !important;
 }
 
 .vertical-tab-content .setting-item button,
@@ -1555,6 +1557,11 @@ tr:last-child td:last-child {
 
 .modal-close-button {
   padding: unset;
+}
+
+.is-phone .modal.mod-settings .vertical-tab-header,
+.is-phone .mod-settings.mod-sidebar-layout {
+  border-radius: var(--window-border-radius);
 }
 
 .vertical-tab-nav-item:not(.settings-search-input) {
