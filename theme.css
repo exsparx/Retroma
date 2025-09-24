@@ -554,7 +554,6 @@ body {
 .backlink-pane,
 .outgoing-link-pane,
 .workspace-leaf-content[data-type="bases"] .view-content {
-  margin-top: var(--size-4-2);
   border-radius: var(--window-border-radius);
   border: var(--border-ridge);
   background-color: var(--background-paper);
@@ -637,6 +636,7 @@ body:not(.is-mobile)
 
 .nav-header,
 .view-header {
+  margin-bottom: var(--size-4-2);
   align-content: center;
   background-color: var(--background-secondary);
   border: var(--border-groove) !important;
