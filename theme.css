@@ -1559,6 +1559,25 @@ tr:last-child td:last-child {
   background: oklch(from var(--base-accent) 20% c h / 75%);
 }
 
+.community-item {
+  border-radius: var(--window-border-radius);
+  border: var(--border-ridge);
+}
+
+.community-item.is-selected {
+  background-color: var(--titlebar-background) !important;
+  border-color: var(--titlebar-background) !important;
+}
+
+.community-item:hover {
+  border-color: var(--titlebar-background);
+}
+
+.community-item-screenshot {
+  border-radius: var(--window-border-radius);
+  border: 1px solid var(--text-muted);
+}
+
 /*--- Style Settings  ---*/
 
 .setting-item + div > .setting-item-heading,
