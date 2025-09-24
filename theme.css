@@ -984,8 +984,10 @@ textarea {
 .workspace
   > .workspace-split:not(.mod-root)
   .metadata-container
-  .metadata-properties {
-  --metadata-gap: 12px;
+  .metadata-properties,
+.is-phone .metadata-properties,
+.workspace-drawer .metadata-properties {
+  --metadata-gap: var(--size-4-2);
   --metadata-divider-width: 0;
 }
 
