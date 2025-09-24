@@ -1400,10 +1400,6 @@ tr:last-child td:last-child {
   border-radius: var(--window-border-radius);
 }
 
-.menu .menu-separator {
-  border-bottom: var(--divider-width) solid var(--background-paper);
-}
-
 .menu-item:hover {
   font-weight: var(--font-bold);
 }
