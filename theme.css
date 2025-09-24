@@ -283,6 +283,11 @@ body {
   /* --checkbox-color-hover: oklch(from var(--base-accent) 50% c h); */
   --checkbox-radius: var(--window-border-radius);
   --checkbox-marker-color: var(--background-paper);
+
+  --mobile-nav-button-safe-area: calc(
+    var(--safe-area-inset-bottom) - var(--keyboard-height) -
+      var(--keyboard-height)
+  );
 }
 
 .theme-variant-1 {
@@ -906,6 +911,10 @@ textarea {
   color: var(--text-normal) !important;
 }
 
+.is-mobile .workspace-drawer-active-tab-content {
+  padding-bottom: var(--mobile-nav-button-safe-area);
+}
+
 .nav-file-title:hover .nav-file-title-content,
 .nav-folder-title:hover .nav-folder-title-content {
   font-weight: var(--font-bold);
@@ -1347,6 +1356,11 @@ tr:last-child td:last-child {
   box-shadow: 0 0 12px 2px oklch(from black l c h / 40%);
 }
 
+.is-phone .menu,
+.is-phone .modal {
+  margin-bottom: var(--mobile-nav-button-safe-area);
+}
+
 .is-phone .menu-item {
   margin-bottom: var(--size-4-1);
 }
@@ -1524,6 +1538,7 @@ tr:last-child td:last-child {
 
 .is-phone .mod-settings.mod-sidebar-layout {
   padding: 6px !important;
+  padding-bottom: var(--mobile-nav-button-safe-area) !important;
   border: unset !important;
 }
 
