@@ -24,7 +24,7 @@ Think you’ve got an eye for design? Prove it. Thanks to full integration with 
 
 ### 🎭️ Theme Variations
 
-![retroma-border-showcase.gif](assets/screenshots/retroma-border-showcase.gif)
+![retroma-theme-showcase.gif](assets/screenshots/retroma-theme-showcase.gif)
 
 I've also included three distinct variants to match your vibe:
 - **Groovy:** A retro-inspired design with a focus on depth and distinct borders, ideal for those who appreciate classic aesthetics.
