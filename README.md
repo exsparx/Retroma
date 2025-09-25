@@ -48,7 +48,7 @@ I've also included three distinct variants to match your vibe:
 
 ## 🗃️ Resources
 
-- Font featured in the screenshots: [iA Fonts](https://github.com/iaolo/iA-Fonts?utm_source=chatgpt.com)
+- Font featured in the screenshots: [iA Fonts](https://github.com/iaolo/iA-Fonts)
 - ...
 
 ---
@@ -94,6 +94,6 @@ Retroma is still a work in progress, a passion project born from my love of retr
 
 Donations are greatly appreciated and will be used to fund my sanity, and my cats' 😼 expensive tastes."
 
-- https://buymeacoffee.com/emarpiee
-- https://ko-fi.com/emarpiee
-- https://paypal.me/emarpiee
+<a href='https://ko-fi.com/emarpiee' target='_blank'><img height='50' width='150' style='border:0px;height:36px;' src='https://storage.ko-fi.com/cdn/kofi6.png?v=6' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
+
+<a href="https://buymeacoffee.com/emarpiee" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-red.png" alt="Buy Me A Coffee" height="40" width="150"></a>
