@@ -1364,8 +1364,7 @@ tr:last-child td:last-child {
   background: var(--background-primary-alt) !important;
 }
 
-.is-phone .menu,
-.is-phone .modal {
+.is-phone .menu {
   margin-bottom: var(--mobile-nav-button-safe-area);
 }
 
