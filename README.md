@@ -1,7 +1,8 @@
 
 # Retroma Theme
 
-![retroma-banner.png](assets/screenshots/retroma-banner-high.png)
+![retroma-banner-high.png](assets/screenshots/retroma-banner-high.png)
+
 
 Your notes? Chaos. Your vault? A digital junkyard. But fear not, **Retroma** is here to trick everyone (including you) into thinking your workspace has its life together.
 
@@ -50,12 +51,6 @@ I've also included three distinct variants to match your vibe:
 - Font featured in the screenshots: [iA Fonts](https://github.com/iaolo/iA-Fonts?utm_source=chatgpt.com)
 - ...
 
-## 🔌 Plugin Compatibility
-
-- [Calendar](https://github.com/liamcain/obsidian-calendar-plugin?utm_source=chatgpt.com) 🟢
-- [Dataview](https://github.com/blacksmithgu/obsidian-dataview?utm_source=chatgpt.com) 🟠
-- ...
-
 ---
 
 ## ⬇️ Installations
@@ -102,4 +97,3 @@ Donations are greatly appreciated and will be used to fund my sanity, and my cat
 - https://buymeacoffee.com/emarpiee
 - https://ko-fi.com/emarpiee
 - https://paypal.me/emarpiee
-  
