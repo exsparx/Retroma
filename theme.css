@@ -1313,6 +1313,40 @@ tr:last-child td:last-child {
   ) !important;
 }
 
+/* PDF */
+
+.pdf-toolbar {
+  border-bottom: unset;
+  border-radius: var(--window-border-radius);
+  margin-bottom: var(--size-4-2);
+}
+
+.pdf-toolbar input[type="number"] {
+  height: unset;
+  border-radius: var(--window-border-radius) !important;
+}
+
+.pdf-container {
+  border-radius: var(--window-border-radius);
+  border: var(--border-ridge);
+  background-color: var(--background-paper);
+  box-shadow: inset 0 0 4px oklch(from black l c h / 50%);
+  min-width: unset;
+}
+
+.pdf-embed {
+  padding: var(--size-4-1);
+  background-color: var(--background-primary);
+  border-radius: var(--window-border-radius) !important;
+  box-shadow: 0 0 4px oklch(from black l c h / 50%);
+  border: 1px solid var(--text-faint) !important;
+}
+
+.pdf-sidebar-container {
+  background-color: var(--background-paper);
+  box-shadow: 0 0 12px oklch(from black l c h / 50%);
+}
+
 /*=============================================
 =                   CANVAS                    =
 =============================================*/
