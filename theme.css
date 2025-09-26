@@ -773,6 +773,7 @@ body:not(.is-mobile)
 
 button:not(.excalidraw button),
 .canvas-control-item,
+.markdown-source-view.mod-cm6 .edit-block-button,
 .is-phone .menu .suggestion-group .suggestion-item,
 .is-phone .menu-item,
 .text-icon-button,
@@ -789,6 +790,7 @@ button:not(.excalidraw button),
 
 button:not(.excalidraw button),
 .canvas-control-item,
+.markdown-source-view.mod-cm6 .edit-block-button,
 .is-phone .menu .suggestion-group .suggestion-item,
 .is-phone .menu-item,
 .vertical-tab-nav-item:not(.settings-search-input),
@@ -806,6 +808,7 @@ button:not(.excalidraw button),
 
 button:hover,
 .canvas-control-item:hover,
+.markdown-source-view.mod-cm6 .edit-block-button,
 .is-phone .menu .suggestion-group .suggestion-item:hover,
 .is-phone .menu-item:hover,
 .text-icon-button:hover,
@@ -1195,6 +1198,17 @@ code:not(pre code),
 .cm-s-obsidian .cm-templater-command.cm-templater-execution-tag,
 .cm-s-obsidian .templater-command-bg {
   border: 1px solid oklch(from var(--text-normal) l c h / 10%);
+}
+
+.markdown-source-view.mod-cm6 .edit-block-button {
+  opacity: unset;
+}
+
+@media (hover: hover) {
+  .markdown-source-view.mod-cm6
+    .cm-embed-block:not(.cm-table-widget, .cm-lang-base):hover {
+    box-shadow: unset;
+  }
 }
 
 /*--- Headings  ---*/
